@@ -1,0 +1,15 @@
+create database quiz;
+use quiz;
+
+CREATE TABLE userinfo (
+    name varchar(255),
+    mobilenumber int,
+    username varchar(255),
+    email varchar(255),
+    password varchar(255)
+);
+
+ALTER TABLE userinfo ADD PRIMARY KEY ( username );
+
+ALTER TABLE userinfo ADD UNIQUE (mobilenumber);
+

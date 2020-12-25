@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap');
+
+
+
+
+/*...General Css Styles...*/
+body {
+  margin: 0;
+  padding: 0;
+}
+.content-flex{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+}
+.title-principal{
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 40px;
+    margin-top: 0;
+    font-family: 'Paytone One', sans-serif;
+}
+.subtitle{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+    font-size:22px;
+    color: #4d4d4d;
+}
+.btn-principal{
+    text-align: center;
+    padding: 10px 40px;
+    width: 230px;
+    color: white;
+    background-color: red;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+}
+.btn-principal:hover{
+    color: white;
+    background-color:#4d4d4d;
+}
+
+form.btn-principal{
+    text-align: center;
+    padding: 10px 40px;
+    width: 230px;
+    color: white;
+    background-color: red;
+    border-radius: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+}
+
+/*....Screen One....*/
+.title-secondary{
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+.user-form{
+    text-align: center; 
+}
+.input-name{
+    padding: 10px 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    color: #4d4d4d;
+    margin-bottom: 60px;  
+}
+
+/*....Screen two....*/
+.screen-two .section-opc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-top: 30px;
+}
+.screen-two .section-opc .opc-one,
+ .screen-two .section-opc .opc-two {
+  width: 400px;
+  text-align: center;
+}
+.screen-two .section-opc img {
+  width: 330px;
+  border-radius: 10px;
+}
+
+/*.....Screen Questions....*/
+.content-flex h4 {
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 36px;
+  padding: 6px 0;
+  margin-bottom: 0;
+  position: relative;
+  top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.content-flex h2 {
+  width: 90%;
+  height: 35px;
+  text-align: center;
+  color: white;
+  background-color: #1b1a1a;
+  border-radius: 5px;
+  padding: 12.5px;
+  margin-top: 0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size:25px;
+  margin-bottom: 40px;
+}
+.content-flex form {
+  display: flex;
+  flex-flow: column wrap;
+  width: 91.5%;
+  margin-bottom: 40px;
+}
+.content-flex form div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.content-flex form div label {
+  width: 49%;
+  height: 30px;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #efefef;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size:17px;
+  color: #4d4d4d;
+}
+
+/*....Screen Results....*/
+.total-score{
+    color: #4d4d4d;
+    font-size: 80px;
+    font-family: 'Paytone One', sans-serif;
+}
+.mt-50{
+  margin-top:50px;
+}
+.mr-45{
+  margin-right:45px;
+}
+.content-btn{
+    margin:0 auto;
+}
+
+
+
+
+
+.btn {
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 45px;
+  margin: 0 0 2em;
+  max-width: 160px; 
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%; 
+  
+   @media(min-width: 400px) {
+     display: inline-block;
+    margin-right: 2.5em;
+
+   &:nth-of-type(even) {
+      margin-right: 0;
+    }
+  }
+  
+  @media(min-width: 600px) {
+      
+    margin: 0 1em 2em;
+  
+    &:nth-of-type(even) {
+      margin-right: 2.5em;
+     }
+    
+    &:nth-of-type(5) {
+      margin-right: 0;
+     }
+    
+  }
+}
+  
+
+/* Search Bar */
+.col-auto{
+  background-color: #912282; 
+}
+
+.btn{
+ color: #fff;
+}
+/* End of Search Bar */
+
+
+
