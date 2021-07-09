@@ -4,8 +4,12 @@ The project provides a simple and effective quizzing platform for users to test 
 
 ## Demonstration
 
+<br />
+
 ### Play Quiz
 <img src="./Images/Play Game.gif" alt="Play game"/>
+
+<br />
 
 ### Create Custom Quiz
 <img src="./Images/Create game.gif" alt="Create game"/>
