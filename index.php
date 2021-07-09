@@ -174,7 +174,7 @@ if ( isset($_POST['join'] ) ) {
 <br>
 <div class="row mt-2 pb-3">
                     <?php
-                        include '../Signup/Dbconnect.php';
+                        include 'Signup/Dbconnect.php';
                         $category = 'Science';
                         $stmt = $conn->prepare("SELECT * FROM quizdata where category = ? ");
                         $stmt->bind_param("s",$category); 

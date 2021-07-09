@@ -35,7 +35,7 @@ $answer3 = $_SESSION['answer3'];
 $failure = false; 
 
 if ( isset($_POST['gohome'] ) ) {
-  header("Location: ../Home/index.php");
+  header("Location: ../index.php");
   return;
 }
 

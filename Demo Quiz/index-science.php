@@ -10,13 +10,13 @@ $quizname = $_SESSION['quiz-name'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Science</title>
+    <title>Computers</title>
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
     <div class="container">
         <div id="home" class="flex-center flex-column">
-            <h1>Science</h1>
+            <h1>Computers</h1>
             <a class="btn" href="game-science.php">Play</a>
             <a class="btn" href="highscores.php">High Scores</a>    
         </div>

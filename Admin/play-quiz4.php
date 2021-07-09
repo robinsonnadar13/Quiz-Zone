@@ -11,7 +11,7 @@ if (isset($_POST['tryagain'])){
 }
 
 if (isset($_POST['ghar'])){
-  header("Location: ../Home/index.php");
+  header("Location: ../index.php");
 }
 
 

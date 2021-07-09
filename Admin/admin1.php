@@ -39,7 +39,7 @@ $topscore = $row['max(TotalScore)'];
   <body><div class="area"><nav class="main-menu">
             <ul>
                 <li>
-                    <a href="../Home/index.php">
+                    <a href="../index.php">
                         <i class="fa fa-home fa-2x"></i>
                         <span class="nav-text">
                             Home
@@ -56,7 +56,7 @@ $topscore = $row['max(TotalScore)'];
                     </a>
                 </li>
                 <li>
-                   <a href="../Home/search.php">
+                   <a href="../search.php">
                        <i class="fa fa-table fa-2x"></i>
                         <span class="nav-text">
                             Search

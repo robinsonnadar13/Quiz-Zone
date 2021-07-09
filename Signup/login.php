@@ -47,7 +47,7 @@ if ( isset($_POST['username']) && isset($_POST['password']) ) {
                 $comment = "Login Successful";
                 session_start();
                 $_SESSION['username'] = $_POST['username'];
-                header("Location: ../Home/index.php?username=".urlencode($_POST['username']));
+                header("Location: ../index.php?username=".urlencode($_POST['username']));
                 error_log("Login success ".$_POST['username']);
             }
 
