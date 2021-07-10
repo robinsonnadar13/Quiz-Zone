@@ -22,4 +22,4 @@ This project provides a simple and effective quizzing platform for users to test
 
 - Start the server!
 
-- Go to browser: http://localhost/Quiz-Website/index.php
+- Go to browser: http://localhost/Quiz-Zone/index.php
